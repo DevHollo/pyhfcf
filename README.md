@@ -13,15 +13,15 @@ from hfcf import HFCF
 
 conf = HFCF("DAT")
 
-a = conf.get('a;1')
+a = conf.get('a;1', "str")
 
 print(a) # output: Hello World!
 ```
 
 > Expaination 1:<br/>
-`conf.get('attributeName;lineItsOn')`<br/>
+`conf.get('attributeName;lineItsOn', "str")`<br/>
 Say you want to get the `g` attribute on line 4. You would do:<br/>
-`conf.get('g;4')`<br/>
+`conf.get('g;4', "str")`<br/>
 
 > Expaination 2:<br/>
 `conf = HFCF("path/to/fileNameWithNoFileExtexsion")`<br/>
