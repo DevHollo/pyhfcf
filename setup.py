@@ -5,7 +5,7 @@ with open('README.md', 'r') as mdfile:
 
 setup(
     name='PyHFCF',
-    version='0.0.1',
+    version='0.0.2',
     scripts=['hfcf.py'],
     author="Hollo",
     author_email="hollo1234567890e@gmail.com",
